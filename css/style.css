@@ -53,3 +53,50 @@ body { width: 100%;}
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
+em{
+	float: right;
+	display: inline-flex;
+	margin: 10px;
+}
+
+.instructions{
+	background-color: white;
+	color: #ff8b00;
+	align-content: center;
+	border: 1000px blue;
+
+}
+
+/* captain jane */
+img[src="images/captain-janeway.png"] {
+	height: 200px;
+	float: right;
+
+	border: 40px grey;
+}
+
+img[src="images/stunning.jpg"] {
+	float: left;
+	width: 200px;
+	margin: 10px;
+}
+
+div > p{
+	color: grey;
+}
+
+
+.container:nth-child(2) {
+	background: blue;
+}
+
+h2:nth-child(3){
+	display: inline;
+	font-size: 3000px;
+
+}
+
+table {
+	background-color: blue;
+	alignment: center;
+}
